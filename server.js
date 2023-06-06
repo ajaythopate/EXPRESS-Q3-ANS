@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const app = express();
 
 // Connect to the MongoDB database
-mongoose.connect('mongodb://localhost/blogDB', {
+mongoose.connect('mongodb+srv://ajaythopate999:ajaythopate999@cluster0.cp6ubqv.mongodb.net/?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
